@@ -1,0 +1,29 @@
+{
+  "name": "demo_node_ci",
+  "version": "1.0.0",
+  "description": "Demo Node CI",
+  "homepage": "https://github.com/ZineddineBE/Demo_Node_CI#readme",
+  "bugs": {
+    "url": "https://github.com/ZineddineBE/Demo_Node_CI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZineddineBE/Demo_Node_CI.git"
+  },
+  "license": "ISC",
+  "author": "ZineddineBE",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0"
+  }
+}
